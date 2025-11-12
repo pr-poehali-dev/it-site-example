@@ -82,7 +82,7 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-background text-foreground">
+    <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
       <div 
         className="relative min-h-screen flex items-center justify-center overflow-hidden"
         style={{
@@ -96,10 +96,10 @@ const Index = () => {
 
         <div className="container mx-auto px-4 relative z-10 text-center">
           <div className="animate-fade-in">
-            <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-cyan-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent animate-gradient">
+            <h1 className="text-4xl sm:text-6xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-cyan-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent animate-gradient">
               TechVision
             </h1>
-            <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
+            <p className="text-base sm:text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto px-4">
               Создаем инновационные решения, которые меняют будущее технологий
             </p>
             <div className="flex gap-4 justify-center flex-wrap">
@@ -126,12 +126,12 @@ const Index = () => {
             <h2 className="text-3xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
               Наши проекты
             </h2>
-            <p className="text-muted-foreground text-lg">
+            <p className="text-muted-foreground text-sm md:text-lg px-4">
               Портфолио решений, которые вывели бизнес на новый уровень
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
             {projects.map((project, index) => (
               <Card 
                 key={project.id} 
@@ -179,12 +179,12 @@ const Index = () => {
             <h2 className="text-3xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text text-transparent">
               Команда экспертов
             </h2>
-            <p className="text-muted-foreground text-lg">
+            <p className="text-muted-foreground text-sm md:text-lg px-4">
               Профессионалы с опытом работы в крупнейших tech-компаниях
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
             {team.map((member, index) => (
               <Card 
                 key={member.name}
@@ -228,12 +228,12 @@ const Index = () => {
             <h2 className="text-3xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
               Технологический стек
             </h2>
-            <p className="text-muted-foreground text-lg">
+            <p className="text-muted-foreground text-sm md:text-lg px-4">
               Используем передовые инструменты для создания надежных решений
             </p>
           </div>
 
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-8 max-w-4xl mx-auto">
             {technologies.map((tech, index) => (
               <div 
                 key={tech.name}
@@ -260,7 +260,7 @@ const Index = () => {
             <h2 className="text-3xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text text-transparent">
               Начните свой проект
             </h2>
-            <p className="text-muted-foreground text-lg">
+            <p className="text-muted-foreground text-sm md:text-lg px-4">
               Свяжитесь с нами, и мы обсудим вашу идею
             </p>
           </div>
