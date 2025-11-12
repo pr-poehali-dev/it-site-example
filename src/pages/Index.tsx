@@ -94,7 +94,7 @@ const Index = () => {
           <div className="absolute bottom-20 right-20 w-96 h-96 bg-secondary/30 rounded-full blur-3xl animate-float" style={{ animationDelay: '2s' }} />
         </div>
 
-        <div className="container mx-auto px-6 relative z-10 text-center">
+        <div className="container mx-auto px-4 relative z-10 text-center">
           <div className="animate-fade-in">
             <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-cyan-400 via-purple-400 to-cyan-400 bg-clip-text text-transparent animate-gradient">
               TechVision
@@ -120,10 +120,10 @@ const Index = () => {
         </div>
       </div>
 
-      <section id="projects" className="py-24 px-6">
+      <section id="projects" className="py-12 md:py-24 px-4">
         <div className="container mx-auto">
           <div className="text-center mb-16 animate-fade-in">
-            <h2 className="text-5xl font-bold mb-4 bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
+            <h2 className="text-3xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
               Наши проекты
             </h2>
             <p className="text-muted-foreground text-lg">
@@ -173,10 +173,10 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="team" className="py-24 px-6 bg-card/30">
+      <section id="team" className="py-12 md:py-24 px-4 bg-card/30">
         <div className="container mx-auto">
           <div className="text-center mb-16 animate-fade-in">
-            <h2 className="text-5xl font-bold mb-4 bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text text-transparent">
+            <h2 className="text-3xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text text-transparent">
               Команда экспертов
             </h2>
             <p className="text-muted-foreground text-lg">
@@ -222,10 +222,10 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="tech" className="py-24 px-6">
+      <section id="tech" className="py-12 md:py-24 px-4">
         <div className="container mx-auto">
           <div className="text-center mb-16 animate-fade-in">
-            <h2 className="text-5xl font-bold mb-4 bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
+            <h2 className="text-3xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
               Технологический стек
             </h2>
             <p className="text-muted-foreground text-lg">
@@ -254,10 +254,10 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="contact" className="py-24 px-6 bg-card/30">
+      <section id="contact" className="py-12 md:py-24 px-4 bg-card/30">
         <div className="container mx-auto max-w-2xl">
           <div className="text-center mb-12 animate-fade-in">
-            <h2 className="text-5xl font-bold mb-4 bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text text-transparent">
+            <h2 className="text-3xl md:text-5xl font-bold mb-4 bg-gradient-to-r from-purple-400 to-cyan-400 bg-clip-text text-transparent">
               Начните свой проект
             </h2>
             <p className="text-muted-foreground text-lg">
@@ -330,7 +330,7 @@ const Index = () => {
         </div>
       </section>
 
-      <footer className="py-8 px-6 border-t border-border">
+      <footer className="py-8 px-4 border-t border-border">
         <div className="container mx-auto text-center text-muted-foreground">
           <p>© 2024 TechVision. Создаем будущее сегодня.</p>
         </div>
